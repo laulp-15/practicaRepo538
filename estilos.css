@@ -1,0 +1,112 @@
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* Estilizar varios elementos a la vez */
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+
+    text-align: center;
+    background: rgb(218, 218, 218);
+    width: 940px;
+    margin: 15px auto;
+    }
+
+    .header {
+        background: rgb(192, 0, 192);
+        border: 1px solid #999999;
+        padding: 5px; /* espacio hacia adentro */
+        vertical-align: auto;
+    }
+
+    .header h1{
+        text-align: center;
+    }
+
+    .menu {
+        background: #dd79f6;
+        padding: 5px 15px;
+        text-align: center;
+    }
+
+    .menu li{
+        list-style: none;  
+        padding: 10px;
+        font: bold 12px verdana;
+        display: inline-block;
+        }
+
+    .menu li:hover{
+        color: rgb(119, 0, 255);
+        background-color: rgb(217, 217, 217);
+        border-radius: 5px;
+    }
+
+    section{
+        width: 600px;
+        margin: 20px;
+        float: left;
+            }
+
+    article{
+        background: #fffbcc;
+        border-radius: 5px;
+        border: 5 px solid #d61111;
+        margin-bottom: 15px;
+        padding: 15px;
+            }
+    time {
+        color: #707070;
+        }
+    article footer{
+        text-align: right;
+        }
+
+.columna{
+    width: 300px;
+    float: left;
+    margin: 20px 0px;
+        }
+
+.columna blockquote{
+    border: 0px solid black;
+    padding: 40px;
+    background: #ffb9f6;
+    border-radius: 20px;
+}
+.columna blockquote:hover{
+    color: rgb(119, 0, 255);
+    background-color: #ea97ff;
+}
+.columna blockquote a{
+    text-decoration: none;
+    color: black;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #c832ee;
+    color: white;
+}
+
+
+img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    height: 140px;
+}
